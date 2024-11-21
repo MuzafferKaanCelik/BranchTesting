@@ -5,8 +5,8 @@ public class Cat extends Animal{
     }
 
     @Override
-    public String eat() {
-        return "Fish";
+    public boolean eat() {
+        return true;
     }
 
 

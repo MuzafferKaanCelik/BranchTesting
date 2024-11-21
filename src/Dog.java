@@ -1,12 +1,14 @@
 public class Dog extends Animal{
+
     @Override
     public void makeSound() {
         System.out.println("The dog goes: Woof!");
     }
 
     @Override
-    public String eat() {
-        return "Dogfood";
+    public boolean eat() {
+        return true;
     }
+
 
 }

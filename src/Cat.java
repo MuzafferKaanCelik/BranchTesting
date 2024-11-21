@@ -9,5 +9,13 @@ public class Cat extends Animal{
         return true;
     }
 
+    @Override
+    String showMood(boolean mood) {
+        if (mood){
+            return "Meow";
+        }else{
+            return "Hiss";
+        }
 
+    }
 }

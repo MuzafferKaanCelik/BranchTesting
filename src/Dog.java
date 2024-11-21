@@ -8,4 +8,5 @@ public class Dog extends Animal{
     public boolean eat() {
         return true;
     }
+
 }

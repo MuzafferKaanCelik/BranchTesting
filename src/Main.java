@@ -10,5 +10,9 @@ public class Main {
         dog.eat();
         cat.eat();
 
+        dog.showMood(true);
+        dog.showMood(false);
+        cat.showMood(true);
+        cat.showMood(false);
     }
 }
